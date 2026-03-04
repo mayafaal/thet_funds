@@ -275,10 +275,10 @@ export default function ApplyPage() {
             <p className="mt-4 text-lg text-primary-foreground/80">
               Contact the THET Fund Grants Team at{" "}
               <a
-                href="mailto:grants@thetfund.gm"
+                href="mailto:mtouray@thetfund.gm"
                 className="underline underline-offset-4"
               >
-                grants@thetfund.gm
+                mtouray@thetfund.gm
               </a>
             </p>
 

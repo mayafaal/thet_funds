@@ -80,7 +80,7 @@ export default function NewsPage() {
                       href={`/news/${item.id}`}
                       className="mt-6 inline-flex items-center gap-2 text-sm font-semibold text-primary group/link hover:underline underline-offset-4"
                     >
-                      Read full article 
+                      Read full article
                       <ArrowRight className="h-4 w-4 transition-transform group-hover/link:translate-x-1" />
                     </Link>
                   </CardContent>
@@ -104,8 +104,8 @@ export default function NewsPage() {
               <div className="overflow-x-auto pb-4 -mx-4 px-4 sm:mx-0 sm:px-0 scrollbar-hide">
                 <TabsList className="inline-flex h-12 items-center justify-start sm:justify-center rounded-lg bg-muted p-1 text-muted-foreground mb-2 sm:mb-10 min-w-full sm:min-w-0">
                   {categories.map((category) => (
-                    <TabsTrigger 
-                      key={category} 
+                    <TabsTrigger
+                      key={category}
                       value={category}
                       className="rounded-md px-6 py-2 text-sm font-medium transition-all data-[state=active]:bg-background data-[state=active]:text-primary data-[state=active]:shadow-sm whitespace-nowrap"
                     >
@@ -173,8 +173,8 @@ export default function NewsPage() {
               For press inquiries, interview requests, or media information, please contact our communications team.
             </p>
             <p className="mt-6 text-primary font-medium">
-              <a href="mailto:info@thetfund.gm" className="hover:underline underline-offset-4">
-                info@thetfund.gm
+              <a href="mailto:communications@thetfund.gm" className="hover:underline underline-offset-4">
+                communications@thetfund.gm
               </a>
             </p>
           </div>
