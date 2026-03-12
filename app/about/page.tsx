@@ -183,6 +183,67 @@ export default function AboutPage() {
           </div>
         </section>
 
+        {/* ================= DIRECTORS ================= */}
+        <section className="py-20 lg:py-28">
+          <div className="mx-auto max-w-7xl px-4 lg:px-8">
+            <div className="mx-auto max-w-2xl text-center mb-14">
+              <h2 className="font-serif text-3xl font-bold tracking-tight text-foreground">
+                THET Fund Directors
+              </h2>
+              <p className="mt-4 text-lg text-muted-foreground">
+                The senior leadership team driving the Fund's strategy, operations, and programmes.
+              </p>
+            </div>
+
+            <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+              {[
+                {
+                  name: "Kumbale Goode",
+                  title: "Director, Infrastructure and Strategic Partnerships",
+                  image: "/board/staff-kumbale-goode.jpg",
+                },
+                {
+                  name: "Seedia B. Jammeh",
+                  title: "Finance Director",
+                  image: "/board/staff-seedia-jammeh.jpg",
+                },
+                {
+                  name: "Yassin Sagnia",
+                  title: "Director, Education Support & Workforce Development",
+                  image: "/board/staff-yassin-sagnia.jpg",
+                },
+                {
+                  name: "Modou Touray",
+                  title: "Programme Director",
+                  image: "/board/staff-modou-touray.jpg",
+                },
+              ].map((director) => (
+                <div
+                  key={director.name}
+                  className="group flex flex-col items-center text-center rounded-2xl border border-border/60 bg-background p-6 transition-all hover:-translate-y-1 hover:shadow-md hover:border-primary/30"
+                >
+                  <div className="h-24 w-24 overflow-hidden rounded-full bg-muted ring-2 ring-border group-hover:ring-primary/30 transition-all mb-4">
+                    <img
+                      src={director.image}
+                      alt={director.name}
+                      className="h-full w-full object-cover"
+                      loading="lazy"
+                    />
+                  </div>
+                  <h3 className="text-base font-semibold text-foreground leading-snug">
+                    {director.name}
+                  </h3>
+                  <p className="mt-1 text-sm text-muted-foreground leading-snug">
+                    {director.title}
+                  </p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        <div className="h-px w-full bg-gradient-to-r from-transparent via-border to-transparent" />
+
         {/* ================= CORE VALUES ================= */}
         <section className="relative bg-primary py-20 lg:py-28 text-primary-foreground overflow-hidden">
           {/* Decorative background glow */}

@@ -6,37 +6,40 @@ import { Calendar } from "lucide-react"
 
 const newsItems = [
   {
-    title: "Call for Proposals: Youth Employability Fund",
-    description:
-      "Applications are now open for the Youth Employability & Entrepreneurship Fund. Submit your proposals to support youth skills development.",
-    date: "Coming Soon",
+    title: "Spotlight on Our Executive Director!",
+    description: "Dr Jorjoh Ndure-Tambedou, PhD, is a transformative leader committed to shaping futures for Gambian youth; grounded in capacity development, innovation, inclusion, and sustainable growth.",
+    date: "11th March 2026",
     category: "Announcement",
-    href: "/news/youth-fund-call",
+    href: "/news/news-01",
   },
   {
-    title: "Inauguration of the THET Fund Board of Trustees",
-    description:
-      "The THET Fund officially inaugurated its Board of Trustees, marking a significant milestone in strengthening higher education financing.",
-    date: "December 2024",
+    title: "THET Fund Engages UTG Students’ Union on Student-Centred Initiatives",
+    description: "The Tertiary and Higher Education Trust (THET) Fund held a constructive engagement with the leadership of the University of The Gambia Students’ Union (UTGSU), represented by the Union’s President and Finance Director.",
+    date: "March 2026",
     category: "Press Release",
-    href: "/news/board-inauguration",
+    href: "/news/news-02",
   },
   {
-    title: "National TVET & Higher Education Stakeholders Forum",
-    description:
-      "Join us for a national forum bringing together stakeholders to discuss the future of TVET and higher education in The Gambia.",
-    date: "Upcoming",
-    category: "Event",
-    href: "/news/stakeholders-forum",
+    title: "THET Fund Leadership Visit USET TVET Skills Centres in Ndemban and Kanilai",
+    description: "On 9th March 2026, the leadership of the Tertiary and Higher Education Trust (THET) Fund continued its nationwide courtesy calls and consultations with visits to the USET TVET skills centres in Ndemban and Kanilai.",
+    date: "March 2026",
+    category: "Press Release",
+    href: "/news/news-03",
   },
   {
-    title: "We are Actively Recruiting - Vacancies Available",
-    description:
-      "The THET Fund Secretariat is expanding. Explore career opportunities and join our team in transforming education in The Gambia.",
-    date: "Open",
-    category: "Notice",
-    href: "/news/vacancies",
+    title: "THET Fund Launches National Workshop on the Establishment of the Tertiary and Higher Education Trust (THET) Fund",
+    description: "On 10th March 2026, the leadership of the Tertiary and Higher Education Trust (THET) Fund continued its nationwide courtesy calls and consultations with visits to the USET TVET skills centres in Ndemban and Kanilai.",
+    date: "March 2026",
+    category: "Press Release",
+    href: "/news/news-04",
   },
+  {
+    title: "THET Fund Leads National Dialogue on Workforce-Ready Graduates",
+    description: "On 10th March 2026, the leadership of the Tertiary and Higher Education Trust (THET) Fund continued its nationwide courtesy calls and consultations with visits to the USET TVET skills centres in Ndemban and Kanilai.",
+    date: "March 2026",
+    category: "Press Release",
+    href: "/news/news-05",
+  }
 ]
 
 export function NewsSection() {

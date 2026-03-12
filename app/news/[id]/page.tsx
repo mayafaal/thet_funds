@@ -105,11 +105,52 @@ export default async function NewsDetailPage({ params }: { params: Promise<{ id:
                 </div>
 
                 {/* Content Body */}
-                <div
-                  className="article-content space-y-6 text-muted-foreground leading-relaxed selection:bg-primary/10"
-                  dangerouslySetInnerHTML={{ __html: newsItem.content || "" }}
-                />
+                <div className="article-content space-y-8 text-muted-foreground leading-relaxed selection:bg-primary/10">
+                  {(newsItem.content ?? []).map((block, index) => {
+                    if (typeof block === 'string') {
+                      return <p key={index} className="text-lg">{block}</p>
+                    }
+                    if (block.type === 'heading') {
+                      return <h3 key={index} className="text-2xl font-bold text-foreground pt-4 mb-2">{block.text}</h3>
+                    }
+                    if (block.type === 'image') {
+                      return (
+                        <div key={index} className="my-10 relative aspect-video w-full overflow-hidden rounded-xl shadow-lg">
+                          <Image
+                            src={block.src}
+                            alt={block.alt || "Article image"}
+                            fill
+                            className="object-cover"
+                          />
+                        </div>
+                      )
+                    }
+                    return null
+                  })}
+                </div>
               </div>
+              
+              {/* Image Gallery (Sub-images) */}
+              {newsItem.subImages && newsItem.subImages.length > 0 && (
+                <div className="pt-12 border-t border-border/60">
+                  <h3 className="text-xl font-bold text-foreground mb-6">Gallery</h3>
+                  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+                    {newsItem.subImages.map((src, index) => (
+                      <div key={index} className="relative aspect-square overflow-hidden rounded-lg group cursor-pointer shadow-sm hover:shadow-md transition-all duration-300">
+                        <Image
+                          src={src}
+                          alt={`Gallery image ${index + 1}`}
+                          fill
+                          className="object-cover transition-transform duration-500 group-hover:scale-110"
+                        />
+                        <div className="absolute inset-0 bg-primary/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                          <span className="text-white text-xs font-bold uppercase tracking-widest">View Gallery</span>
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              )}
 
               {/* Share & Footer Section */}
               <div className="pt-8 sm:pt-10 border-t border-border/60">

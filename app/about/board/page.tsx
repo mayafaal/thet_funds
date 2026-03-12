@@ -4,8 +4,6 @@ import { Header } from "@/components/layout/header"
 import { Footer } from "@/components/layout/footer"
 import {
   Card,
-  CardContent,
-  CardDescription,
   CardHeader,
   CardTitle,
 } from "@/components/ui/card"
@@ -26,29 +24,79 @@ const boardMembers = [
     name: "Mr. Muhammed Jah",
     role: "Chairperson",
     organization: "Founder, QGroup",
-    bio: "A renowned Gambian entrepreneur and philanthropist, Mr. Jah brings decades of private sector leadership and a deep commitment to national development.",
-    image: "/muhammed-jah.png",
+    image: "/board/muhammed-jah.png",
   },
   {
-    name: "Board Member",
-    role: "Trustee",
-    organization: "To be announced",
-    bio: "Additional board member information will be added when confirmed.",
-    image: "/board-member-placeholder.png",
+    name: "Ms. Isatou Auber",
+    role: "Board Member",
+    organization: "Permanent Secretary, MoHERST",
+    image: "/board/isatou-auber.jpg",
   },
   {
-    name: "Board Member",
-    role: "Trustee",
-    organization: "To be announced",
-    bio: "Additional board member information will be added when confirmed.",
-    image: "/board-member-placeholder.png",
+    name: "Mr. Siaka Saidy Leigh",
+    role: "Board Member",
+    organization: "Principal Assistant Secretary, MoHERST",
+    image: "/board/siaka-saidy-leigh.jpg",
   },
   {
-    name: "Board Member",
-    role: "Trustee",
-    organization: "To be announced",
-    bio: "Additional board member information will be added when confirmed.",
-    image: "/board-member-placeholder.png",
+    name: "Mr. Geoffrey Bala-Gaye",
+    role: "Board Member",
+    organization: "Director, Human Resources Development Division, Ministry of Public Service",
+    image: "/board/geoffrey-bala-gaye.jpg",
+  },
+  {
+    name: "Mr Illo Jallo",
+    role: "Board Member",
+    organization: "Permanent Secretary, Office of The President",
+    image: "/board/illo-jallo.jpg",
+  },
+  {
+    name: "Mr Samba Mballow",
+    role: "Board Member",
+    organization: "Permanent Secretary, Ministry of Transport, Works and Infrastructure",
+    image: "/board/samba-mballow.jpg",
+  },
+  {
+    name: "Hon. Sir Farimang Saho",
+    role: "Board Member",
+    organization: "President of the Confederation of Gambian Industries",
+    image: "/board/farimang-saho.jpg",
+  },
+  {
+    name: "Mr. Dawda Kujabie",
+    role: "Board Member",
+    organization: "CEO of Gambia Teachers Union Cooperative Credit Union (GTUCCU)",
+    image: "/board/dawda-kujabie.jpg",
+  },
+  {
+    name: "Dr Modou Lamin Tarro",
+    role: "Board Member",
+    organization: "CEO, National Accreditation and Quality Assurance Authority (NAQAA)",
+    image: "/board/modou-lamin-tarro.jpg",
+  },
+  {
+    name: "Ms. Beatrice Mboge",
+    role: "Board Member",
+    organization: "CEO, Gambia Women's Chamber of Commerce (GWCC)",
+    image: "/board/beatrice-mboge.jpg",
+  },
+  {
+    name: "Dr. Jorjoh Ndure-Tambedou",
+    role: "Board Member",
+    organization: "Executive Director (THET Fund)",
+    image: "/board/jorjoh-ndure-tambedou.jpg",
+  },
+  {
+    name: "Mr Alfusainey K. Jabbie",
+    role: "Board Member",
+    organization: "Deputy Director Finance, GRA",
+    image: "/board/alfusainey-k-jabbie.jpg",
+  },
+  {
+    name: "Mr Ricki Duanda",
+    role: "Board Member",
+    organization: "Senior Counsel, Ministry of Justice",
+    image: "/board/ricki-duanda.jpg",
   },
 ]
 
@@ -106,7 +154,7 @@ export default function BoardPage() {
 
               <div className="relative aspect-[4/3] overflow-hidden rounded-xl bg-muted shadow-sm">
                 <img
-                  src="/8.jpeg"
+                  src="/11.jpeg"
                   alt="THET Fund Board of Trustees meeting"
                   className="h-full w-full object-cover"
                   loading="lazy"
@@ -131,14 +179,14 @@ export default function BoardPage() {
               </p>
             </div>
 
-            <div className="mt-14 grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
+            <div className="mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-4 xl:grid-cols-5">
               {boardMembers.map((member, index) => (
                 <Card
                   key={index}
-                  className="text-center transition hover:-translate-y-1 hover:shadow-lg"
+                  className="group text-center transition-all hover:-translate-y-1 hover:shadow-md border-border/60"
                 >
-                  <CardHeader>
-                    <div className="mx-auto h-32 w-32 overflow-hidden rounded-full bg-muted shadow-inner">
+                  <CardHeader className="pb-4 pt-6 px-4">
+                    <div className="mx-auto h-20 w-20 overflow-hidden rounded-full bg-muted ring-2 ring-border group-hover:ring-primary/30 transition-all">
                       <img
                         src={member.image || "/placeholder.svg"}
                         alt={member.name}
@@ -146,25 +194,12 @@ export default function BoardPage() {
                         loading="lazy"
                       />
                     </div>
-
-                    <CardTitle className="mt-5 text-lg">
+                    <CardTitle className="mt-4 text-sm font-semibold leading-snug">
                       {member.name}
                     </CardTitle>
-
-                    <CardDescription className="mt-1">
-                      <span className="font-medium text-primary">
-                        {member.role}
-                      </span>
-                      <br />
-                      <span className="text-sm">{member.organization}</span>
-                    </CardDescription>
+                    <p className="mt-1 text-xs font-semibold text-primary">{member.role}</p>
+                    <p className="mt-0.5 text-xs text-muted-foreground leading-snug">{member.organization}</p>
                   </CardHeader>
-
-                  <CardContent>
-                    <p className="text-sm leading-relaxed text-muted-foreground">
-                      {member.bio}
-                    </p>
-                  </CardContent>
                 </Card>
               ))}
             </div>
