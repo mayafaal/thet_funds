@@ -22,8 +22,8 @@ const boardRoles = [
 const boardMembers = [
   {
     name: "Mr. Muhammed Jah",
-    role: "Chairperson",
-    organization: "Founder, QGroup",
+    role: "Chair of the Board of Trustees, THET Fund",
+    organization: "CEO, Q Group",
     image: "/board/muhammed-jah.png",
   },
   {
@@ -33,7 +33,7 @@ const boardMembers = [
     image: "/board/isatou-auber.jpg",
   },
   {
-    name: "Mr. Siaka Saidy Leigh",
+    name: "Mr. Siaka SaidyLeigh",
     role: "Board Member",
     organization: "Principal Assistant Secretary, MoHERST",
     image: "/board/siaka-saidy-leigh.jpg",
@@ -45,13 +45,13 @@ const boardMembers = [
     image: "/board/geoffrey-bala-gaye.jpg",
   },
   {
-    name: "Mr Illo Jallo",
+    name: "Mr. Illo Jallo",
     role: "Board Member",
     organization: "Permanent Secretary, Office of The President",
     image: "/board/illo-jallo.jpg",
   },
   {
-    name: "Mr Samba Mballow",
+    name: "Mr. Samba Mballow",
     role: "Board Member",
     organization: "Permanent Secretary, Ministry of Transport, Works and Infrastructure",
     image: "/board/samba-mballow.jpg",
@@ -77,7 +77,7 @@ const boardMembers = [
   {
     name: "Ms. Beatrice Mboge",
     role: "Board Member",
-    organization: "CEO, Gambia Women's Chamber of Commerce (GWCC)",
+    organization: "CEO, Gambia Women’s Chamber of Commerce (GWCC)",
     image: "/board/beatrice-mboge.jpg",
   },
   {
@@ -87,15 +87,15 @@ const boardMembers = [
     image: "/board/jorjoh-ndure-tambedou.jpg",
   },
   {
-    name: "Mr Alfusainey K. Jabbie",
+    name: "Mr. Alfusainey K. Jabbie",
     role: "Board Member",
-    organization: "Deputy Director Finance, GRA",
+    organization: "Deputy Director, Monitoring and Evaluation - Directorate of Development Planning Ministry of Finance and Economics Affairs",
     image: "/board/alfusainey-k-jabbie.jpg",
   },
   {
-    name: "Mr Ricki Duanda",
+    name: "Ms. Rakey Duanda",
     role: "Board Member",
-    organization: "Senior Counsel, Ministry of Justice",
+    organization: "Senior State Counsel, Attorney General’s Chambers & Ministry of Justice ",
     image: "/board/ricki-duanda.jpg",
   },
 ]
