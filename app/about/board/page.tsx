@@ -93,11 +93,17 @@ const boardMembers = [
     image: "/board/alfusainey-k-jabbie.jpg",
   },
   {
-    name: "Ms. Rakey Duanda",
+    name: "Ms. Rakie Duanda",
     role: "Board Member",
     organization: "Senior State Counsel, Attorney General’s Chambers & Ministry of Justice ",
     image: "/board/ricki-duanda.jpg",
   },
+  {
+    name: "Mr. Muhammed Juwara",
+    role: "Board Member",
+    organization: "Deputy Director Finance, GRA",
+    image: "/board/muhammed-juwara.jpg",
+  }
 ]
 
 /* -------------------- Page -------------------- */
