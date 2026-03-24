@@ -20,21 +20,7 @@ const fundingWindows = [
     status: "active",
     href: "/funding#trainer",
   },
-  {
-    title: "Women & Inclusion Skills Initiative",
-    description: "Empowering women, girls, and persons with disabilities with targeted education and skills support.",
-    icon: Heart,
-    status: "coming-soon",
-    href: "/funding#women",
-  },
-  {
-    title: "Research, Innovation & Digital Transformation Fund",
-    description:
-      "Supporting applied research, innovation projects, and digital modernization in tertiary institutions.",
-    icon: Lightbulb,
-    status: "coming-soon",
-    href: "/funding#research",
-  },
+  
   {
     title: "Institutional Support & Infrastructure Upgrade Fund",
     description: "Enhancing laboratories, workshops, ICT infrastructure, and learning environments.",

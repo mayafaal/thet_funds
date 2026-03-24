@@ -56,38 +56,6 @@ const fundingWindows = [
       "TVET and higher education institutions, and individual educators with institutional endorsement.",
   },
   {
-    id: "women",
-    title: "Women & Inclusion Skills Initiative",
-    description:
-      "Dedicated funding to promote skills development and inclusion for women, girls, and persons with disabilities.",
-    icon: Heart,
-    status: "coming-soon",
-    focusAreas: [
-      "Entry-level employability skills",
-      "Leadership and empowerment training",
-      "Technology and digital inclusion",
-      "Accessible learning environments",
-    ],
-    eligibility:
-      "Organizations working with women, girls, and persons with disabilities.",
-  },
-  {
-    id: "research",
-    title: "Research, Innovation & Digital Transformation Fund",
-    description:
-      "Supports applied research, innovation hubs, digital learning systems, and institutional modernization.",
-    icon: Lightbulb,
-    status: "coming-soon",
-    focusAreas: [
-      "Applied research projects",
-      "Innovation labs and incubators",
-      "Digital learning platforms",
-      "Institutional digital transformation",
-    ],
-    eligibility:
-      "Higher education institutions, research centers, and innovation hubs.",
-  },
-  {
     id: "infrastructure",
     title: "Institutional Support & Infrastructure Upgrade Fund",
     description:
