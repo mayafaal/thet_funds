@@ -20,7 +20,10 @@ const fundingWindows = [
     status: "active",
     href: "/funding#trainer",
   },
+<<<<<<< HEAD
   
+=======
+>>>>>>> 7c2fd23 (My first comment)
   {
     title: "Institutional Support & Infrastructure Upgrade Fund",
     description: "Enhancing laboratories, workshops, ICT infrastructure, and learning environments.",
