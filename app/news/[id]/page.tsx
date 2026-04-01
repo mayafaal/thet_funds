@@ -100,7 +100,7 @@ export default async function NewsDetailPage({ params }: { params: Promise<{ id:
                 <div className="relative p-6 sm:p-8 rounded-xl sm:rounded-2xl bg-primary/[0.03] border border-primary/10 mb-8 sm:mb-12 overflow-hidden">
                   <div className="absolute top-0 left-0 w-1 h-full bg-primary" />
                   <p className="text-lg sm:text-xl leading-relaxed text-foreground font-medium italic m-0">
-                    &ldquo;{newsItem.description}&rdquo;
+                  {newsItem.description}
                   </p>
                 </div>
 
