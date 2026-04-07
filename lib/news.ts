@@ -20,6 +20,22 @@ export type NewsItem = {
 
 export const newsItems: NewsItem[] = [
   {
+    id: "news-07",
+    title: "THET Fund Engages Gambia Federation of the Disabled",
+    description:
+      "The leadership of the Tertiary and Higher Education Trust (THET) Fund today held a productive engagement with The Gambia Federation Of The Disabled. as part of its ongoing stakeholder consultations.",
+    date: "March 2026",
+    category: "Press Release",
+    featured: true,
+    image: "/news/A1.jpg",
+    subImages: [],
+    content: [
+      "Led by our Executive Director Dr Jorjoh Ndure-Tambedou, the THET Fund team introduced the Fund’s mandate and highlighted its commitment to supporting inclusive access to tertiary and higher education.",
+      "The Chairperson of The Gambia Federation of the Disabled, His Worship Muhammed Krubally, together with members of his team, provided an overview of the organisation and shared key challenges faced by persons with disabilities, particularly in relation to education, skills development and employment opportunities.",
+      "The engagement created an important platform for dialogue, with both sides exchanging perspectives on how the THET Fund can support initiatives that promote inclusion and expand opportunities for persons with disabilities in The Gambia.",
+    ],
+  },
+  {
     id: "news-06",
     title: "THET Fund Presents Stakeholder Engagement Analytical Findings to the Honorable Minister and MoHERST SMT",
     description:
