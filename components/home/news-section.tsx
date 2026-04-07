@@ -6,6 +6,13 @@ import { Calendar } from "lucide-react"
 
 const newsItems = [
   {
+    title: "THET Fund Engages Gambia Federation of the Disabled",
+    description: "The leadership of the Tertiary and Higher Education Trust (THET) Fund today held a productive engagement with The Gambia Federation Of The Disabled. as part of its ongoing stakeholder consultations.",
+    date: "March 2026",
+    category: "Press Release",
+    href: "/news/news-07",
+  },
+  {
     title: "THET Fund Presents Stakeholder Engagement Analytical Findings to the Honorable Minister and MoHERST SMT",
     description: "The Leadership of the Tertiary and Higher Education Trust (THET) Fund today presented its flagship National Stakeholder Engagement Findings to the Honourable Minister and Senior Management Team of the Ministry of Higher Education,Research Science and Technology (MoHERST).",
     date: "March 2026",
