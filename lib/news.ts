@@ -20,6 +20,88 @@ export type NewsItem = {
 
 export const newsItems: NewsItem[] = [
   {
+    id: "news-12",
+    title: "THET Fund Participates in Landmark WACREN 2026 Opening Hosted by MoHERST",
+    description:
+      "The leadership of the Tertiary and Higher Education Trust (THET) Fund participated in the official opening of the West and Central African Research and Education Network (WACREN) Annual Conference and General Assembly 2026, hosted by the Ministry of Higher Education,Research Science and Technology (MoHERST) at the Sir Dawda Kairaba Jawara International Conference Centre.",
+    date: "March 2026",
+    category: "Press Release",
+    featured: true,
+    image: "/news/A6.jpg",
+    subImages: [],
+    content: [
+      "Held under the theme “Connected Futures: Advancing Africa’s Digital Sovereignty Through Open Collaboration,” the high-level gathering brought together key stakeholders from across the region to engage on digital infrastructure, open science and innovation. The opening also featured the launch of the Gambia Research and Education Network (GAMREN).",
+      "The participation of the THET Fund marked an important step in strengthening its engagement with regional partners and reaffirmed its commitment to advancing tertiary and higher education development in The Gambia.",
+   ],
+  },
+   {
+    id: "news-11",
+    title: "THET Fund visits TİKA in The Gambia",
+    description:
+      "As part of its ongoing situational analysis, the leadership of the THET Fund yesterday held a strategic engagement with the School of Nursing and Midwifery under The University of The Gambia’s School of Medicine and Allied Health Sciences.",
+    date: "March 2026",
+    category: "Press Release",
+    featured: true,
+    image: "/news/A5.jpg",
+    subImages: [],
+    content: [
+      "The leadership of the Tertiary and Higher Education Trust (THET) Fund recently paid a visit to the Turkish Cooperation and Coordination Agency (TİKA) as part of its ongoing stakeholder consultation engagements.",
+      "The delegation held fruitful discussions with Programme Coordinator Ali Kerim, focusing on areas of mutual interest and opportunities for collaboration in advancing tertiary and higher education in The Gambia.",
+      "The visit reinforces the THET Fund’s commitment to strengthening partnerships and engaging key stakeholders to support sustainable development in the education sector.",
+    ],
+  },
+  {
+    id: "news-10",
+    title: "THET Fund Engages NAQAA, USET and UEG in ongoing consultations",
+    description:
+      "The Tertiary and Higher Education Trust (THET) Fund continued its stakeholder consultation engagements with visits to the National Accreditation and Quality Assurance Authority (NAQAA), the University of Applied Science, Engineering and Technology (USET) and the University of Education Gambia (UEG).",
+    date: "March 2026",
+    category: "Press Release",
+    featured: true,
+    image: "/news/A4.1.jpg",
+    subImages: [
+       "/news/A4.jpg",
+      "/news/A4.2.jpg",
+      "/news/A4.4.jpg",
+      "/news/A4.4.jpg",
+    ],
+    content: [
+      "The engagements provided an opportunity for constructive discussions on quality assurance, institutional priorities, and collaborative approaches aimed at strengthening the tertiary and higher education sector in The Gambia.",
+    ],
+  },
+  {
+    id: "news-09",
+    title: "THET Fund Engages UTG School of Nursing and Midwifery",
+    description:
+      "As part of its ongoing situational analysis, the leadership of the THET Fund yesterday held a strategic engagement with the School of Nursing and Midwifery under The University of The Gambia’s School of Medicine and Allied Health Sciences.",
+    date: "March 2026",
+    category: "Press Release",
+    featured: true,
+    image: "/news/A3.jpg",
+    subImages: [],
+    content: [
+      "During the discussion, Associate Professor and Head of Department, Dr. Jainaba Sey-Sawo, highlighted the institution’s key needs, training capacity, and challenges affecting the delivery of quality nursing and midwifery education.",
+      "The meeting provided a platform to explore collaborative approaches for supporting initiatives that improve educational opportunities, strengthen community development, and promote sustainable impact across The Gambia.",
+      "The engagement provided valuable insights to inform evidence-based interventions aimed at strengthening human resource development in the health sector and enhancing the overall quality of healthcare training in The Gambia.",
+    ],
+  },
+  {
+    id: "news-08",
+    title: "THET Fund Engages “Future in Our Hands”",
+    description:
+      "The leadership of the Tertiary and Higher Education Trust (THET) Fund today held a productive engagement with The Gambia Federation Of The Disabled. as part of its ongoing stakeholder consultations.",
+    date: "March 2026",
+    category: "Press Release",
+    featured: true,
+    image: "/news/A2.jpg",
+    subImages: [],
+    content: [
+      "As part of its ongoing stakeholder engagement series, the leadership of the Tertiary and Higher Education Trust (THET) Fund today welcomed Future In Our Hands - The Gambia at the THET Fund office complex in Bijilo. The NGO works to enhance access to quality education and empower rural communities in the fight against poverty.",
+      "The meeting provided a platform to explore collaborative approaches for supporting initiatives that improve educational opportunities, strengthen community development, and promote sustainable impact across The Gambia.",
+      "Through these engagements, the THET Fund continues to gather insights from key partners to ensure its programs address local needs and create meaningful opportunities for young people and communities.",
+    ],
+  },
+  {
     id: "news-07",
     title: "THET Fund Engages Gambia Federation of the Disabled",
     description:
